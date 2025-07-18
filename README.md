@@ -28,7 +28,7 @@ This project delves into **Cryptocurrency Market Sentiment & Price Forecasting**
 
 The dataset used for this analysis is **'Cryptocurrency Market Sentiment & Price Data 2025'** from Kaggle. It contains daily (or sub-daily, which was resampled) price, volume, market cap, social/news sentiment, fear/greed index, volatility, and technical indicator data for various cryptocurrencies. For focused analysis, the project concentrated on **Ethereum**, which had the most data points in the dataset.
 
-* **Link to Dataset:** [Cryptocurrency Market Sentiment & Price Data 2025](https://www.kaggle.com/datasets/pratyushpuri/cryptocurrency-market-sentiment-price-data-2025)
+* **Link to Dataset:** [Cryptocurrency Market Sentiment & Price Data 2025](https://www.kaggle.com/datasets/pratyushpuri/crypto-market-sentiment-and-price-dataset-2025)
 
 ---
 
@@ -48,7 +48,7 @@ My analytical approach involved several key steps tailored for time series data:
 EDA was performed to understand Ethereum's price dynamics and the behavior of associated metrics over the observed 31-day period:
 
 * **Price Trend:** The `current_price_usd` showed **short-term volatility** with noticeable fluctuations but no strong, sustained long-term trend over the brief duration.
-    ![Ethereum Price Trend](plots/[YOUR_ETH_PRICE_PLOT_FILENAME].png)
+    ![Ethereum Price Trend](plots/Correlation Matrix of Ethereum Daily Data Features.png)
 * **Sentiment Trends:** Both `social_sentiment_score` and `news_sentiment_score` exhibited **dynamic fluctuations**, often crossing the neutral line.
     ![Ethereum Sentiment Trends](plots/[YOUR_SENTIMENT_TRENDS_PLOT_FILENAME].png)
 * **Volume & Market Cap:** `trading_volume_24h` showed high variability, while `market_cap_usd` closely mirrored price movements as expected.
